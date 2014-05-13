@@ -1,45 +1,47 @@
 nuaavee Cookbook
 ================
-TODO: Enter the cookbook description here.
+Set up a development environment just the way I prefer it to be.
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+Modules keep the structure clean and the default recipie installs each one by iterating over the "modules" attribute.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
-e.g.
+Currently only tested on Ubuntu 14.04 TLS
+
 #### packages
-- `toaster` - nuaavee needs toaster to brown your bagel.
+- `timezone` - nuaavee needs timezone for ... TODO ...
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
 
-e.g.
 #### nuaavee::default
 <table>
   <tr>
     <th>Key</th>
     <th>Type</th>
     <th>Description</th>
-    <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['nuaavee']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['nuaavee']['basedir']</tt></td>
+    <td>String</td>
+    <td>Base directory of the cookbook</td>
+  </tr>
+  <tr>
+    <td><tt>['nuaavee']['moddir']</tt></td>
+    <td>String</td>
+    <td>Path to the modules directory</td>
+  </tr>
+  <tr>
+    <td><tt>['nuaavee']['modules']</tt></td>
+    <td>Array</td>
+    <td>Modules to be installed</td>
   </tr>
 </table>
 
 Usage
 -----
 #### nuaavee::default
-TODO: Write usage instructions for each cookbook.
-
-e.g.
 Just include `nuaavee` in your node's `run_list`:
 
 ```json
@@ -53,9 +55,6 @@ Just include `nuaavee` in your node's `run_list`:
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
@@ -63,6 +62,9 @@ e.g.
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request using Github
 
-License and Authors
+Author
 -------------------
-Authors: TODO: List authors
+[Anshul Verma](http://anshulverma.github.io/) ::
+[anshulverma](https://github.com/anshulverma) ::
+[@anshulverma](http://twitter.com/anshulverma)
+
