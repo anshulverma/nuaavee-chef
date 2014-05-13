@@ -1,0 +1,16 @@
+{
+  "title" : "git",
+  "description" : "source control",
+  "components" : [
+    {
+      "name" : "global configuration",
+      "file" : "gitconfig",
+      "destination" : "{HOME}/.gitconfig"
+    },
+    {
+      "name" : "global gitignore",
+      "file" : "gitignore",
+      "destination" : "{HOME}/.gitignore_global"
+    }
+  ]
+}
