@@ -1,11 +1,15 @@
 nuaavee Cookbook
 ================
 
-[![Cookbook Version](http://img.shields.io/cookbook/v/apt.svg)][cookbook]
+![Cookbook Version](http://img.shields.io/cookbook/v/nuaavee.svg)
 
+Builds status:
 > master&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=master)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
 >
 > release&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=release)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
+
+Description
+-----------
 
 Set up a development environment just the way I prefer it to be.
 
