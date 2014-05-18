@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
+gem 'rake', '10.0.4'
+
 group :unit do
   gem 'berkshelf', '~> 3.0.0.beta7'
   gem 'chefspec',  '~> 3.1'
