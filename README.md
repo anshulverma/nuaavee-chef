@@ -1,5 +1,9 @@
 nuaavee Cookbook
 ================
+master&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=master)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
+
+release&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=release)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
+
 Set up a development environment just the way I prefer it to be.
 
 Modules keep the structure clean and the default recipie installs each one by iterating over the "modules" attribute.
