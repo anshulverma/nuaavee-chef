@@ -1,0 +1,13 @@
+---
+driver:
+  name: vagrant
+
+platforms:
+  - name: ubuntu-12.04
+    run_list: nuaavee::default
+
+suites:
+  - name: default
+    run_list:
+      - recipe[minitest-handler]
+      - recipe[nuaavee_test]
