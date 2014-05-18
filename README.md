@@ -1,5 +1,8 @@
 nuaavee Cookbook
 ================
+
+[![Cookbook Version](http://img.shields.io/cookbook/v/apt.svg)][cookbook]
+
 > master&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=master)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
 >
 > release&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=release)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
