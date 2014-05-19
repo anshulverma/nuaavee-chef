@@ -16,3 +16,8 @@ platforms:
     ssh_key: <%= ENV['EC2_SSH_KEY_PATH'] %>
   run_list:
   - recipe[nuaavee]
+
+suites:
+  - name: default
+    run_list:
+      - recipe[apt]
