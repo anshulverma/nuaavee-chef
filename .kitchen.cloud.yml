@@ -1,7 +1,6 @@
 driver_config:
   aws_access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
   aws_secret_access_key: <%= ENV['AWS_SECRET_ACCESS'] %>
-  availability_zone: us-west-2
 
 provisioner:
   name: chef_zero
@@ -11,7 +10,7 @@ platforms:
 - name: ubuntu-1404
   driver_plugin: ec2
   driver_config:
-    image_id: ami-6ac2a85a
+    image_id: i-37c53d3c
     username: ubuntu
     aws_ssh_key_id: <%= ENV['AWS_KEYPAIR_NAME'] %>
     ssh_key: <%= ENV['EC2_SSH_KEY_PATH'] %>
