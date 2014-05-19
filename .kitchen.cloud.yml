@@ -7,11 +7,9 @@ provisioner:
   require_chef_omnibus: latest
 
 platforms:
-- name: ubuntu-1404
+- name: ubuntu-13.04
   driver_plugin: ec2
   driver_config:
-    image_id: i-37c53d3c
-    username: ubuntu
     aws_ssh_key_id: <%= ENV['AWS_KEYPAIR_NAME'] %>
     ssh_key: <%= ENV['EC2_SSH_KEY_PATH'] %>
   run_list:
