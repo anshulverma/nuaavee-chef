@@ -4,6 +4,6 @@ describe 'nuaavee_test::default' do
   include Helpers::BaseTest
 
   it 'creates the git global config' do
-    directory('/home/nuaavee/.gitignore_global_x').must_exist
+    directory('/home/nuaavee/.gitignore_global').must_exist
   end
 end
