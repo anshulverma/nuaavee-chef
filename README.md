@@ -3,6 +3,8 @@ nuaavee Cookbook
 
 ![Cookbook Version](http://img.shields.io/cookbook/v/nuaavee.svg)
 
+[![Dependency Status](https://gemnasium.com/anshulverma/nuaavee-chef.svg)](https://gemnasium.com/anshulverma/nuaavee-chef)
+
 Builds status:
 > master&nbsp;&nbsp;[![Build Status](https://travis-ci.org/anshulverma/nuaavee-chef.svg?branch=master)](https://travis-ci.org/anshulverma/nuaavee-chef.svg)
 >
