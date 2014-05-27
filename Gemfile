@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.1'
+ruby '2.1.2'
 
 group :unit do
   gem 'berkshelf', '~> 3.0.0.beta6'
